@@ -1,0 +1,8 @@
+name: cert
+subcommands:
+  - download:
+      args:
+        - fqdn:
+            required: true
+        - path:
+            required: true
